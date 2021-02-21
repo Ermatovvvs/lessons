@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+   width: 1110px;
+    height: 750px;
+    margin: 0 auto;
+   
+}
+
+.block{
+   width:1100px; 
+   padding: 5px;
+   background-image: url(../img/map.jpg);
+   background-size: cover;
+   display: flex;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   color:aliceblue;
+}
+
+.block__continent{
+    width: 366px;
+    height: 366px;
+    
+}
+
+.heading{
+    font-size: 34px;
+    font-weight: 800;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.usa{
+    background:#144c75b0
+}
+
+.europe{
+background: #602461b0;
+}
+
+.asia{
+    background: #ad1010b0;
+    
+}
+
+.africa{
+    background: #fbff00b0;
+   
+}
+
+.avstralia{
+    background: #fa871bb0;
+    
+}
+.subtitle{
+    font-size: 24px;
+    text-align: center;
+    margin: 10px;
+}
+.block__continent--name{
+    
+    margin: 0px 20px 30px 20px;
+    background-color: rgba(0, 0, 0, 0.233);
+    width: 320px;
+    height: 260px;
+}
+
+.flag{
+    width: 100px;
+    height: 60px;
+    text-align: left;
+}
+.block__continent--names{
+    display: flex;
+    text-align: center;
+}
+
+.city{
+    font-size: 20px;
+    margin: 40px 0px 25px 20px;
+}
+
+.flag__city{
+   
+    
+}
+
+.block__city{
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 20px 20px;
+}
+
+.city__name{
+ margin: 10px;   
+}
