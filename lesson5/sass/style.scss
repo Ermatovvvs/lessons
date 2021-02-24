@@ -1,0 +1,29 @@
+@import "./_mixin";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner{
+   width: 1110px;
+    height: 750px;
+    margin: 0 auto;
+   
+}
+
+
+
+@import "./block__continent";
+@import "./city";
+
+
+
+
+
+
+
+
+
+
+
