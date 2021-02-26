@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+	
+    width: 100%;
+    max-width: 1000px
+}
+body{
+		width: auto;
+		height: auto;
+  }
+
+.menu{
+    text-align: right;
+    padding:10px;
+    border-bottom: solid  #5d5d5d;
+}
+
+.logo{
+    border-bottom: solid  #5d5d5d;
+    text-align: left;  
+}
+
+.menu li {
+    list-style: none;
+    display: inline;
+    margin: 30px 20px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000
+}
+
+.text1{
+    flex-basis: 13.4375rem;
+    margin-bottom: 2.875rem;
+    
+}
+
+.text3 {
+
+    font-size: 33px;
+    margin: 0;
+    padding-left: 180px;
+    color: #5d5d5d;
+    font-family: "Segoe WP";
+    font-style: normal;
+    text-align: left;
+
+}
+.text3 img {
+    border: 5px solid #373737;
+    background-color: #373737;
+   
+}
+
+.main_ipad{
+    margin-top: 150px;
+}
+.text4{
+
+    width: 318px;
+    color: #848484;
+    font-family: "Segoe WP";
+    font-size: 10px;
+    margin-left: 38px;
+    text-align: left;
+}
+
+.conteiner{
+    margin: auto; 
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.description{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: #848484;
+}
+
+h2{
+font-size: 1.625rem;
+font-weight: 300;
+line-height: 1.75rem;
+color: #696161;
+}
+
+
+.menu_item:hover{
+  
+    font-weight: 500;
+    background: #373737;
+    color: #ffffff;
+    
+}
+
+
+.advertising{  
+    width: 31%;
+}
