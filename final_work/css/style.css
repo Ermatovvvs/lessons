@@ -1,0 +1,343 @@
+body{
+    font-family: 'Lato', sans-serif;
+   
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a:hover{
+    color: #a53689;
+    border-radius: 3px;
+    border: none;
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+/*intro*/
+.intro{
+    width: 100%;
+    height: 100%;
+    background: url(../img/temnyj-maket-sajta-dlya-portfolio.jpg) center no-repeat;
+    background-size: cover;
+}
+/*header*/
+.header{
+    display: flex;
+
+}
+
+.header_logo{
+    display: flex;
+    width: 50%;
+}
+
+.logo_{
+    width: 80px;
+    height: 20px;
+    margin: 55px;
+}
+
+.tl{
+    margin-top: 55px;
+}
+
+.tel{
+   color: gray;
+   margin-left: -50px;
+   font-size: 15px;
+   font-weight: bolder;
+   
+}
+
+.logo_tel{
+    margin: 55px;
+    margin-left: -10px;
+    width: 20px;
+    height: 20px;
+   
+}
+
+.menu{
+   
+    width: 50%;
+    text-align: right;  
+    margin-top: 50px; 
+    margin-left: -40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+
+}
+
+.menu_item{
+    margin: 0 30px;
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+.menu_icon{
+    margin: 0 50px;
+}
+
+.menu-icon_item{
+display: block;
+margin-top: 50px;
+z-index: 1000;
+cursor: pointer;
+
+}
+
+.img_menu_icon:hover{
+    transform: scale(1.2);
+    color:blueviolet;
+}
+
+/*hero*/
+
+.container_hero{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.img{
+    display: flex;
+}
+
+.img_text--left{
+color: #3b0b78;
+font-family: 'Lato', sans-serif;
+width: 10%;
+transform: rotate(-90);
+transform-origin: top left;
+margin-top: 155px;
+
+}
+
+.img_text--right{
+    color: gray;
+    font-family: 'Lato', sans-serif;
+    width: 10%;
+    margin-top: 155px;
+    
+}
+
+.img_text--bottom{
+    color: #48555d;
+    font-family: 'PlayfairDisplay', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+.hero_img{
+    width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.slider_item{
+    color:gray;
+}
+
+.slider_item:hover:link{
+    padding: 2px;
+    color:hotpink
+}
+
+.slider_item:hover{
+    background-color:hotpink;
+    border-radius: 50px;
+    padding: auto;
+}
+
+.slider{
+    display: flex;
+    text-align: center;
+    margin-left: 530px ;
+   
+    height: 2px;
+    width: 2px;
+    margin-top: 50px;
+}
+
+.slider_item--dot{
+    color: #3a454c;   
+   font-weight: bolder;
+   width: 5px;
+   height: 5px;
+   cursor: pointer;
+   padding-right: 50px;
+}
+
+.slider_item--dot:focus{
+    background-color: tomato;
+    border-radius: 100px;
+    
+}
+
+.play_button{
+    margin-left: 410px;
+    margin-top: 70px;
+}
+
+.hero_text{
+    color: #ffffff;
+    font-family: 'Playfair Display-Regular';
+    src: url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+    text-align: center;
+    font-size: 28pt;
+    margin: 50px;
+    padding-top: 30px;
+}
+
+.hero_text--line{
+    line-height: 10%;
+}
+
+.signature{
+    margin-left: 500px;
+}
+
+.hero_text:hover{
+    color:hotpink;
+}
+
+i{
+  font-size: 140px;
+  color:aliceblue;
+}
+
+i:hover{
+   color:hotpink;
+   
+}
+
+/*main*/
+
+.main{
+    width: 100%;
+    max-width: 1920px;
+    height: 1000px;
+    margin: 0 auto;
+}
+   
+
+.conteiner_main{
+   display: flex;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.block_1--image_main{
+    height: 600px;
+    
+    max-width: 1920px;
+    margin-top: 60px;  
+  
+}  
+.image_main_one{
+    width: 620px;
+    margin-left: 50px;
+    margin-top: 250px;
+    height: 180px;
+    background-color:#ed751b;
+    position:absolute;
+
+}
+.image_main_two{
+    width: 450px;
+    height: 600px;
+    background-image: url(../img/Layer\ 11.png);
+    position: absolute;
+    left: 135px;
+    top: 1760px;
+}
+
+.image_main_three{
+    width: 350px;
+    height: 500px;
+    background: url(../img/Rectangle\ 19\ copy.png) center no-repeat;
+    
+    position: absolute;
+    left: 290px;
+    top: 1933px; 
+}
+
+.image_main_four{
+    height: 180px;
+    width: 80px;
+    background-color:  #ee7d16;
+    position:absolute;
+    left: 134px;
+    top: 1933px;
+}
+
+.one{
+    position:absolute;
+    left: 90px;
+    top: 2060px;
+}
+
+.numbers{
+    color:rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 2366px;
+    left: 170px;
+}
+ .block1{
+     display: flex;
+     background: url(../img/dotted+map+dark+blue.png) center no-repeat;
+ }
+.block_1--text{
+    color:#ffffff;
+    font-size: 20pt;
+    line-height: 80%;
+    margin-right: 50px;
+    position:absolute;
+    right: 100px;
+    top:1730px;
+    font-family: 'Playfair Display-Regular';
+    src: url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal;
+}
+
+.block_1--text_mini{
+    color:#ffffff; 
+    font-size: 10pt;
+    line-height: 20%;
+    position: absolute;
+    right: 180px;
+    top:1920px;
+
+}
+
+@font-face{
+    font-family: 'Playfair Display-Regular';
+    src: url("../fonts/PlayfairDisplay-Regular.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+}
+
+
+
+
